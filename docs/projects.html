@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#eef2f7" />
+    <title>Projects | Arjun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-art">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+          <a class="brand" href="index.html"><span class="brand__name">Arjun K</span></a>
+          <nav class="site-nav" aria-label="Primary" data-site-nav data-open="false">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links">
+              <a class="site-nav__link" href="index.html">Home</a>
+              <a class="site-nav__link is-active" href="projects.html">Projects</a>
+              <a class="site-nav__link" href="about.html">About</a>
+              <a class="site-nav__link" href="contact.html">Contact</a>
+              <a class="button button--primary" href="project-flexml.html">FlexML</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="project-hero">
+          <div class="section__inner reveal">
+            <p class="eyebrow">Projects</p>
+            <h1 class="project-hero__title">Five builds. One systems thread.</h1>
+            <p class="project-hero__copy">
+              From Swift on iPhone to PCBs in the air. Each card links to a case study with real photos, boards, and
+              simulation media.
+            </p>
+          </div>
+        </section>
+
+        <section class="project-detail">
+          <div class="section__inner">
+            <div class="project-grid project-grid--single">
+              <article class="project-card project-card--row project-card--featured reveal">
+                <div class="project-card__media">
+                  <img
+                    src="PhotosAndVideos/FlexML/mainview.jpg"
+                    alt="FlexML main interface on iPhone"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__meta">
+                    <span class="tag tag--accent">FlexML</span>
+                    <span class="tag">Swift Student Challenge</span>
+                  </div>
+                  <h2 class="project-card__title">FlexML</h2>
+                  <p class="project-card__summary">iPhone-native vision for robotics. Swift, Core ML, ~30 FPS on device.</p>
+                  <ul class="project-card__list">
+                    <li>Problem: edge hardware adds cost and setup friction.</li>
+                    <li>Approach: on-device inference and telemetry from the phone.</li>
+                    <li>Outcome: flagship Apple-facing systems story.</li>
+                  </ul>
+                  <div class="detail-link-row">
+                    <a class="button button--primary" href="project-flexml.html">Case study</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card project-card--row reveal">
+                <div class="project-card__media">
+                  <img
+                    src="PhotosAndVideos/Gps_denied_Navigation/Gpsdenied navigation Image.png"
+                    alt="GPS-denied navigation workspace"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__meta">
+                    <span class="tag">Autonomy</span>
+                    <span class="tag">Simulation</span>
+                  </div>
+                  <h2 class="project-card__title">GPS-Denied Drone Navigation</h2>
+                  <p class="project-card__summary">Visual localization when GPS fails. 99% accuracy in simulation.</p>
+                  <ul class="project-card__list">
+                    <li>NetVLAD-style pipeline, AirSim, Unreal Engine.</li>
+                    <li>Research at ISER Bhopal.</li>
+                  </ul>
+                  <div class="detail-link-row">
+                    <a class="button button--primary" href="project-drone.html">Case study</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card project-card--row reveal">
+                <div class="project-card__media">
+                  <img
+                    src="PhotosAndVideos/Water%20AI/Hardware%20Images/IMG_4441.jpg"
+                    alt="Water AI imaging rig in the field"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__meta">
+                    <span class="tag">Water AI</span>
+                    <span class="tag">Field samples</span>
+                  </div>
+                  <h2 class="project-card__title">AI Water Quality Assessment</h2>
+                  <p class="project-card__summary">RGB imaging pipeline grounded in real Vijayawada &amp; Amaravathi samples.</p>
+                  <div class="detail-link-row">
+                    <a class="button button--primary" href="project-water-ai.html">Case study</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card project-card--row reveal">
+                <div class="project-card__media">
+                  <img
+                    src="PhotosAndVideos/TetheredDroneSystem/Tether_LowweightDroneCadImage.jpg.jpg"
+                    alt="CAD model of lightweight tethered drone air unit"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__meta">
+                    <span class="tag">Power system</span>
+                    <span class="tag">PCB</span>
+                  </div>
+                  <h2 class="project-card__title">Tethered Drone Power System</h2>
+                  <p class="project-card__summary">Air &amp; ground PCBs, CAD, fabrication. ~90% efficiency target.</p>
+                  <ul class="project-card__list">
+                    <li>TDK DC-DC modules, LTSpice, weight-aware validation.</li>
+                  </ul>
+                  <div class="detail-link-row">
+                    <a class="button button--primary" href="project-power-system.html">Case study</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card project-card--row reveal">
+                <div class="project-card__media">
+                  <img
+                    src="PhotosAndVideos/TEAM%20TEDH/SmartIndiaHackathon_temaTEDH_groupimage_withCertificates.JPG"
+                    alt="Team TEDH at Smart India Hackathon with certificates"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="project-card__body">
+                  <div class="project-card__meta">
+                    <span class="tag">Team TEDH</span>
+                    <span class="tag">Leadership</span>
+                  </div>
+                  <h2 class="project-card__title">Team TEDH</h2>
+                  <p class="project-card__summary">Founded Team TEDH — two years of wins across hackathons, summits, and civic partnerships.</p>
+                  <div class="detail-link-row">
+                    <a class="button button--primary" href="project-team-tedh.html">Case study</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <span class="site-footer__brand">Arjun · Systems Builder</span>
+          <span>&copy; <span data-current-year></span></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

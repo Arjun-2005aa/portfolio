@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="theme-color" content="#eef2f7" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tethered Drone Power System | Arjun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-art">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+          <a class="brand" href="index.html"><span class="brand__name">Arjun K</span></a>
+          <nav class="site-nav" aria-label="Primary" data-site-nav data-open="false">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links">
+              <a class="site-nav__link" href="index.html">Home</a>
+              <a class="site-nav__link" href="projects.html">Projects</a>
+              <a class="site-nav__link" href="about.html">About</a>
+              <a class="site-nav__link" href="contact.html">Contact</a>
+              <a class="button button--primary" href="projects.html">All projects</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="project-hero">
+          <div class="section__inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a href="projects.html">Projects</a>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page">Tethered Power System</span>
+            </nav>
+            <div class="project-hero__grid reveal">
+              <div>
+                <p class="eyebrow">Tethered Drone Power System</p>
+                <h1 class="project-hero__title">Design power delivery for longer, more stable aerial operation.</h1>
+                <p class="project-hero__copy">
+                  This project focused on the electrical backbone of a tethered drone platform, where efficiency,
+                  component choice, and physical feasibility matter as much as the circuit itself.
+                </p>
+              </div>
+              <aside class="hero-card project-hero__aside" style="padding: 0; overflow: hidden">
+                <img
+                  src="PhotosAndVideos/TetheredDroneSystem/Tether_AIRUnit_pcb.jpg.jpg"
+                  alt="Air unit PCB"
+                  style="width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="hero-card__content" style="padding: 16px; border-top: 1px solid var(--color-border-strong); background: var(--color-accent-soft)">
+                  <p class="hero-card__label">Hook</p>
+                  <h2 class="hero-card__title">Endurance starts with power architecture.</h2>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-detail">
+          <div class="section__inner">
+            <div class="project-detail__grid">
+              <div class="detail-stack">
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Problem</h2>
+                  <p class="detail-block__copy">
+                    Battery-limited drones have narrow endurance windows. A tethered configuration offers a different
+                    path, but it only works if power conversion is efficient and the hardware remains practical for
+                    flight.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Approach</h2>
+                  <ul class="detail-list">
+                    <li>Designed a PCB integrating TDK DC-DC modules for tethered power delivery.</li>
+                    <li>Evaluated the system in LTSpice before moving to real-world tests.</li>
+                    <li>Balanced electrical performance against weight-sensitive aerial constraints.</li>
+                    <li>Used validation results to refine the design beyond simulation assumptions.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Your role</h2>
+                  <p class="detail-block__copy">
+                    Hardware Designer. I focused on the PCB and power-delivery side of the system, moving between
+                    component-level design, simulation, and physical validation.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Impact</h2>
+                  <ul class="detail-list">
+                    <li>Reached roughly 90% efficiency under weight-constrained aerial conditions.</li>
+                    <li>Built a stronger intuition for how simulations map onto physical hardware behavior.</li>
+                    <li>Added a hardware-intensive project to a portfolio otherwise centered on software and AI.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Learning</h2>
+                  <p class="detail-block__copy">
+                    Power systems demand discipline. This project reinforced how much good engineering depends on
+                    grounding a design in physical validation rather than trusting calculations alone.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Media</h2>
+                  <div class="media-grid" style="margin-top: 18px">
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/TetheredDroneSystem/Tether_AIRUnit_pcb.jpg.jpg"
+                          alt="Air unit PCB for tethered drone power delivery"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Air unit PCB</h3>
+                        <p class="media-card__copy">Onboard power path integrating TDK DC-DC modules for flight constraints.</p>
+                      </div>
+                    </article>
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/TetheredDroneSystem/Tether_groundstation_pcb.jpg"
+                          alt="Ground station PCB for tethered power system"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Ground station PCB</h3>
+                        <p class="media-card__copy">Ground-side conversion and distribution for tethered endurance.</p>
+                      </div>
+                    </article>
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/TetheredDroneSystem/Tether_LowweightDroneCadImage.jpg.jpg"
+                          alt="CAD model of lightweight tethered drone design"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Drone CAD</h3>
+                        <p class="media-card__copy">Low-weight airframe geometry designed around power and tether routing.</p>
+                      </div>
+                    </article>
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/TetheredDroneSystem/Tether_LowweightDroneFab_inprogress_Image.jpg.jpg"
+                          alt="Fabrication in progress for lightweight drone frame"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Fabrication</h3>
+                        <p class="media-card__copy">Physical build progress connecting simulation choices to real hardware.</p>
+                      </div>
+                    </article>
+                  </div>
+                </article>
+              </div>
+
+              <aside class="sidebar-stack">
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Tech stack</p>
+                  <p class="sidebar-card__value">PCB design, TDK DC-DC modules, LTSpice, hardware validation</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Role</p>
+                  <p class="sidebar-card__value">Hardware Designer</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Result</p>
+                  <p class="sidebar-card__value">90% efficiency under weight-constrained aerial conditions</p>
+                </article>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <span class="site-footer__brand">Arjun · Systems Builder</span>
+          <span>&copy; <span data-current-year></span></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

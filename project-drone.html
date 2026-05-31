@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="theme-color" content="#eef2f7" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPS-Denied Drone Navigation | Arjun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-art">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+          <a class="brand" href="index.html"><span class="brand__name">Arjun K</span></a>
+          <nav class="site-nav" aria-label="Primary" data-site-nav data-open="false">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links">
+              <a class="site-nav__link" href="index.html">Home</a>
+              <a class="site-nav__link" href="projects.html">Projects</a>
+              <a class="site-nav__link" href="about.html">About</a>
+              <a class="site-nav__link" href="contact.html">Contact</a>
+              <a class="button button--primary" href="projects.html">All projects</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="project-hero">
+          <div class="section__inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a href="projects.html">Projects</a>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page">GPS-Denied Navigation</span>
+            </nav>
+            <div class="project-hero__grid reveal">
+              <div>
+                <p class="eyebrow">GPS-Denied Drone Navigation</p>
+                <h1 class="project-hero__title">Navigate visually when GPS fails.</h1>
+                <p class="project-hero__copy">
+                  This research-heavy project focused on visual localization, simulation, and planning for autonomous
+                  drones operating where GPS is unavailable or unreliable.
+                </p>
+              </div>
+              <aside class="hero-card project-hero__aside">
+                <div class="hero-card__content">
+                  <p class="hero-card__label">Hook</p>
+                  <h2 class="hero-card__title">Localization becomes the product.</h2>
+                  <p class="hero-card__copy">
+                    The challenge is not just to fly. It is to know where you are, trust the estimate, and turn that
+                    estimate into movement.
+                  </p>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-detail">
+          <div class="section__inner">
+            <div class="project-detail__grid">
+              <div class="detail-stack">
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Problem</h2>
+                  <p class="detail-block__copy">
+                    Drones operating in dense, obstructed, or contested environments cannot always rely on GPS. The
+                    system therefore needs a reliable visual fallback for localization and path planning.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Approach</h2>
+                  <ul class="detail-list">
+                    <li>Built a NetVLAD-based visual localization pipeline using preprocessed satellite imagery.</li>
+                    <li>Used AirSim and Unreal Engine for evaluation in a controlled simulation loop.</li>
+                    <li>Created preprocessing, training, and planning utilities in Python.</li>
+                    <li>Measured model quality against meaningful localization metrics rather than visuals alone.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Your role</h2>
+                  <p class="detail-block__copy">
+                    Research &amp; Development. I worked across simulation setup, data preparation, localization logic,
+                    and the evaluation flow that made the results interpretable.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Impact</h2>
+                  <ul class="detail-list">
+                    <li>Achieved 99% accuracy and 95% precision in simulation.</li>
+                    <li>Established a repeatable workflow for visual localization and planning experiments.</li>
+                    <li>Strengthened my ability to turn research concepts into testable engineering systems.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Learning</h2>
+                  <p class="detail-block__copy">
+                    This project taught me that autonomy is as much about evaluation discipline as model design. A good
+                    perception model only matters when the surrounding pipeline makes the estimate useful and trustworthy.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Media</h2>
+                  <div class="media-grid" style="margin-top: 18px;">
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Gps_denied_Navigation/Gpsdenied navigation Image.png"
+                          alt="GPS-denied navigation interface and simulation"
+                          style="--ratio: 3600 / 1958"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Workspace overview</h3>
+                        <p class="media-card__copy">Localization code, aerial input, and simulator views brought into one working pipeline.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <video controls playsinline preload="metadata" style="--ratio: 16 / 9">
+                          <source src="PhotosAndVideos/Gps_denied_Navigation/3d_mapcompilation%20_in_reality%20capture.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">3D map compilation</h3>
+                        <p class="media-card__copy">A supporting capture showing the world-building and spatial context behind the system.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <video controls playsinline preload="metadata" style="--ratio: 16 / 9">
+                          <source src="PhotosAndVideos/Gps_denied_Navigation/GPS_DENIED_Navigation_SIMULATON.mp4" type="video/mp4" />
+                        </video>
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Simulation playback</h3>
+                        <p class="media-card__copy">A direct look at how the navigation system behaves in the simulator environment.</p>
+                      </div>
+                    </article>
+                  </div>
+                </article>
+              </div>
+
+              <aside class="sidebar-stack">
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Tech stack</p>
+                  <p class="sidebar-card__value">Python, NetVLAD pipeline, AirSim, Unreal Engine, path planning</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Role</p>
+                  <p class="sidebar-card__value">Research &amp; Development</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Result</p>
+                  <p class="sidebar-card__value">99% accuracy, 95% precision in simulation</p>
+                </article>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <span class="site-footer__brand">Arjun · Systems Builder</span>
+          <span>&copy; <span data-current-year></span></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

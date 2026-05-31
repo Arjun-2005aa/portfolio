@@ -1,0 +1,6 @@
+.DS_Store
+deploy/
+portfolio-deploy.zip
+*.DNG
+*.mov
+

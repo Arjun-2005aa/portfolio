@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="theme-color" content="#eef2f7" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlexML | Arjun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-art">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+          <a class="brand" href="index.html"><span class="brand__name">Arjun K</span></a>
+          <nav class="site-nav" aria-label="Primary" data-site-nav data-open="false">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links">
+              <a class="site-nav__link" href="index.html">Home</a>
+              <a class="site-nav__link" href="projects.html">Projects</a>
+              <a class="site-nav__link" href="about.html">About</a>
+              <a class="site-nav__link" href="contact.html">Contact</a>
+              <a class="button button--primary" href="projects.html">All projects</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="project-hero">
+          <div class="section__inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a href="projects.html">Projects</a>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page">FlexML</span>
+            </nav>
+            <div class="project-hero__grid reveal">
+              <div>
+                <p class="eyebrow">FlexML</p>
+                <h1 class="project-hero__title">Turn your iPhone into a real-time AI vision system.</h1>
+                <p class="project-hero__copy">
+                  FlexML reframes the smartphone as an accessible robotics component: a camera, inference engine,
+                  interface, and communications layer bundled into one familiar device.
+                </p>
+              </div>
+              <aside class="hero-card project-hero__aside">
+                <div class="hero-card__content">
+                  <div class="hero-card__meta">
+                    <span class="tag">Swift Student Challenge Winner</span>
+                    <span class="tag">Developer</span>
+                  </div>
+                  <p class="hero-card__label">Hook</p>
+                  <h2 class="hero-card__title">Use what people already have in their pocket.</h2>
+                  <p class="hero-card__copy">
+                    The iPhone is powerful, reliable, and camera-rich. FlexML uses that advantage instead of forcing
+                    robotics teams to carry extra edge hardware.
+                  </p>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-detail">
+          <div class="section__inner">
+            <div class="project-detail__grid">
+              <div class="detail-stack">
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Problem</h2>
+                  <p class="detail-block__copy">
+                    Robotics teams often depend on Raspberry Pi or NVIDIA Jetson setups for on-device vision. That adds
+                    cost, thermal management issues, power complexity, and fragile setup time that should be spent on the
+                    robot itself.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Approach</h2>
+                  <ul class="detail-list">
+                    <li>Designed a Swift-based iOS workflow for loading Core ML models directly on device.</li>
+                    <li>Built an AVFoundation-powered camera pipeline optimized for real-time inference.</li>
+                    <li>Enabled dynamic model deployment and streaming of data toward external robotics hardware.</li>
+                    <li>Shaped the product around clarity, with simple model selection and setup steps.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Your role</h2>
+                  <p class="detail-block__copy">
+                    Developer. I handled the concept, product framing, iOS implementation, model deployment workflow,
+                    and the technical story around why the phone should become the robotics node.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Impact</h2>
+                  <ul class="detail-list">
+                    <li>Reached around 30 FPS through an optimized on-device inference path.</li>
+                    <li>Reduced the need for extra compute hardware in small robotics workflows.</li>
+                    <li>Connected product intuition with engineering depth, which is why it became the portfolio hero.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Learning</h2>
+                  <p class="detail-block__copy">
+                    FlexML taught me that high-end engineering only becomes compelling when the entry point is simple.
+                    The most important work was not just model execution; it was translating capability into a product
+                    people could approach confidently.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Media</h2>
+                  <div class="media-grid" style="margin-top: 18px;">
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img src="PhotosAndVideos/FlexML/mainview.jpg" alt="FlexML main interface" style="--ratio: 2360 / 1576" />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Landing experience</h3>
+                        <p class="media-card__copy">A bold, simple interface focused on loading a model and getting to the scene quickly.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img src="PhotosAndVideos/FlexML/model_selection_files.PNG" alt="FlexML model selection view" style="--ratio: 2360 / 1640" />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Dynamic model loading</h3>
+                        <p class="media-card__copy">The workflow supports selecting and switching models without rebuilding the whole app.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img src="PhotosAndVideos/FlexML/infarence_deeplabV3_mlmodel.PNG" alt="FlexML DeepLabV3 Core ML inference" style="--ratio: 2360 / 1640" loading="lazy" decoding="async" />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">DeepLabV3 inference</h3>
+                        <p class="media-card__copy">Segmentation model running on-device through the same pipeline.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img src="PhotosAndVideos/FlexML/infarence_yolov8_mlmodel.PNG" alt="FlexML YOLOv8 inference view" style="--ratio: 2360 / 1640" loading="lazy" decoding="async" />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Inference results</h3>
+                        <p class="media-card__copy">The system is meant to feel immediate, with model output visible in the interface itself.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img src="PhotosAndVideos/FlexML/myinfopage.PNG" alt="FlexML about page" style="--ratio: 2360 / 1640" />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Product story</h3>
+                        <p class="media-card__copy">The project narrative explains why the iPhone is the right platform for the problem.</p>
+                      </div>
+                    </article>
+                  </div>
+                </article>
+              </div>
+
+              <aside class="sidebar-stack">
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Tech stack</p>
+                  <p class="sidebar-card__value">Swift, iOS, Core ML, AVFoundation, networking, ESP32 integration</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Role</p>
+                  <p class="sidebar-card__value">Developer</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Focus</p>
+                  <p class="sidebar-card__value">On-device inference, portable product design, robotics workflow simplification</p>
+                </article>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <span class="site-footer__brand">Arjun · Systems Builder</span>
+          <span>&copy; <span data-current-year></span></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

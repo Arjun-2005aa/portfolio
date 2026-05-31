@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="theme-color" content="#eef2f7" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water AI | Arjun</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-art">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+          <a class="brand" href="index.html"><span class="brand__name">Arjun K</span></a>
+          <nav class="site-nav" aria-label="Primary" data-site-nav data-open="false">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links">
+              <a class="site-nav__link" href="index.html">Home</a>
+              <a class="site-nav__link" href="projects.html">Projects</a>
+              <a class="site-nav__link" href="about.html">About</a>
+              <a class="site-nav__link" href="contact.html">Contact</a>
+              <a class="button button--primary" href="projects.html">All projects</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="project-hero">
+          <div class="section__inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <a href="projects.html">Projects</a>
+              <span aria-hidden="true">/</span>
+              <span aria-current="page">Water AI</span>
+            </nav>
+            <div class="project-hero__grid reveal">
+              <div>
+                <p class="eyebrow">AI-Based Water Quality Assessment</p>
+                <h1 class="project-hero__title">Use RGB imaging to screen water quality without direct contact.</h1>
+                <p class="project-hero__copy">
+                  Water AI explores how accessible imaging and classification can support faster, lower-friction checks
+                  on water samples gathered from real environments.
+                </p>
+              </div>
+              <aside class="hero-card project-hero__aside">
+                <div class="hero-card__content">
+                  <p class="hero-card__label">Hook</p>
+                  <h2 class="hero-card__title">Bring AI closer to field conditions.</h2>
+                  <p class="hero-card__copy">
+                    The core challenge is not only model accuracy. It is building a data collection and imaging setup
+                    that remains useful outside polished lab conditions.
+                  </p>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-detail">
+          <div class="section__inner">
+            <div class="project-detail__grid">
+              <div class="detail-stack">
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Problem</h2>
+                  <p class="detail-block__copy">
+                    Water testing workflows can be slow, specialized, or hard to scale in field settings. I wanted to
+                    explore whether image-based classification could support a more accessible first-pass assessment.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Approach</h2>
+                  <ul class="detail-list">
+                    <li>Collected real water samples from Vijayawada and Amaravathi.</li>
+                    <li>Paired dataset creation with lab validation for stronger grounding.</li>
+                    <li>Built a physical imaging setup to control sample capture conditions.</li>
+                    <li>Implemented preprocessing, augmentation, and inference steps for classification.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Your role</h2>
+                  <p class="detail-block__copy">
+                    Developer. I contributed across data collection, imaging workflow design, preprocessing, and the
+                    inference pipeline itself.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Impact</h2>
+                  <ul class="detail-list">
+                    <li>Built the project around real samples instead of synthetic assumptions.</li>
+                    <li>Created a working imaging rig that linked hardware setup with AI inference.</li>
+                    <li>Expanded my ability to design AI systems where data quality depends on physical construction.</li>
+                  </ul>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Learning</h2>
+                  <p class="detail-block__copy">
+                    Physical AI projects are only as strong as the capture process. This case study made it clear that
+                    model performance, hardware arrangement, and environmental noise all need to be designed together.
+                  </p>
+                </article>
+
+                <article class="detail-block">
+                  <h2 class="detail-block__title">Media</h2>
+                  <p class="detail-block__copy" style="margin-bottom: 0">
+                    Field collection, lab validation, and the imaging rig that ties raw samples to on-device classification.
+                  </p>
+                  <div class="media-grid" style="margin-top: 18px">
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/Hardware%20Images/IMG_4441.jpg"
+                          alt="Water AI imaging rig"
+                          style="--ratio: 2275 / 1613"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Imaging setup</h3>
+                        <p class="media-card__copy">A prototype rig designed to capture samples with more controlled lighting and framing.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/Hardware%20Images/85FE40DF-811B-48ED-9CED-C6A35167B29D.JPG"
+                          alt="Water AI prototype hardware"
+                          style="--ratio: 3840 / 2160"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Prototype environment</h3>
+                        <p class="media-card__copy">The project lives at the intersection of hardware improvisation, data capture, and inference.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/camera-sample-view.jpg"
+                          alt="Camera view of a water sample in the imaging rig"
+                          style="--ratio: 1536 / 2048"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Sample capture view</h3>
+                        <p class="media-card__copy">What the classifier actually sees — the same framing used for training and inference.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/lab-parameter-instrument.jpg"
+                          alt="Industrial water sample parameter measurement instrument"
+                          style="--ratio: 1536 / 2048"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Lab validation</h3>
+                        <p class="media-card__copy">Ground-truth parameter readings paired with RGB captures so the model learns from real chemistry, not guesses.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/field-collection-1.jpg"
+                          alt="Collecting water samples in the field near Vijayawada"
+                          style="--ratio: 2048 / 1536"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Field collection · Vijayawada</h3>
+                        <p class="media-card__copy">Real samples gathered on-site — the dataset starts in the environment, not in a spreadsheet.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/field-collection-2.jpg"
+                          alt="Water sample collection at a field site"
+                          style="--ratio: 2048 / 1536"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">On-site sampling</h3>
+                        <p class="media-card__copy">Documenting collection conditions so later model errors can be traced back to capture context.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/field-collection-3.jpg"
+                          alt="Water collection work in Amaravathi area"
+                          style="--ratio: 2048 / 1536"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Field collection · Amaravathi</h3>
+                        <p class="media-card__copy">A second collection region to widen the range of water types and lighting the model has to handle.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/field-collection-4.jpg"
+                          alt="Labeling and handling water samples in the field"
+                          style="--ratio: 2048 / 1536"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Sample handling</h3>
+                        <p class="media-card__copy">Careful labeling and handling so each image in the dataset maps to a known source.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/Water%20AI/web/field-collection-5.jpg"
+                          alt="Team collecting water samples for the Water AI dataset"
+                          style="--ratio: 2048 / 1536"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Dataset in the making</h3>
+                        <p class="media-card__copy">Building a field dataset with Team TEDH — collection, imaging, and validation as one loop.</p>
+                      </div>
+                    </article>
+
+                    <article class="media-card">
+                      <div class="media-frame">
+                        <img
+                          src="PhotosAndVideos/TEAM%20TEDH/TeamTedh_researchDaySpetialMentaionforWaterAI.JPEG"
+                          alt="Team TEDH special mention for Water AI on research day"
+                          style="--ratio: 3504 / 2336"
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </div>
+                      <div class="media-card__body">
+                        <h3 class="media-card__title">Research day recognition</h3>
+                        <p class="media-card__copy">Special mention for the Water AI work — field rig, real samples, and a team that kept pushing it forward.</p>
+                      </div>
+                    </article>
+                  </div>
+                </article>
+              </div>
+
+              <aside class="sidebar-stack">
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Tech stack</p>
+                  <p class="sidebar-card__value">Computer vision, RGB imaging, preprocessing, augmentation, inference pipeline</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Role</p>
+                  <p class="sidebar-card__value">Developer</p>
+                </article>
+                <article class="hero-card sidebar-card">
+                  <p class="sidebar-card__label">Field context</p>
+                  <p class="sidebar-card__value">Samples collected from Vijayawada and Amaravathi with lab validation</p>
+                </article>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <span class="site-footer__brand">Arjun · Systems Builder</span>
+          <span>&copy; <span data-current-year></span></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

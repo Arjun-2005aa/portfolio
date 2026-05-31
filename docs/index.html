@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#eef2f7" />
+    <title>Arjun | Systems Builder</title>
+    <meta
+      name="description"
+      content="Portfolio of Kasimsetty Venkata Naga Arjun — systems builder across robotics, AI, embedded hardware, and the Apple ecosystem."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="theme-art">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+          <a class="brand" href="index.html"><span class="brand__name">Arjun K</span></a>
+          <nav class="site-nav" data-site-nav data-open="false" aria-label="Primary">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </button>
+            <div class="site-nav__links">
+              <a class="site-nav__link is-active" href="index.html" aria-current="page">Home</a>
+              <a class="site-nav__link" href="projects.html">Projects</a>
+              <a class="site-nav__link" href="about.html">About</a>
+              <a class="site-nav__link" href="contact.html">Contact</a>
+              <a class="button button--primary" href="projects.html">Work</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="art-hero" aria-labelledby="hero-title">
+          <div class="section__inner">
+            <div class="art-hero__grid">
+              <div class="art-hero__copycol">
+                <p class="eyebrow hero-intro__item" style="--i: 0">Apple Developer Academy</p>
+                <h1 class="art-hero__title" id="hero-title">
+                  <span class="hero-intro__item" style="--i: 1"><span class="hl-accent">Systems</span></span>
+                  <span class="hero-intro__item" style="--i: 2">that weld <span class="hl-warm">hardware</span></span>
+                  <span class="hero-intro__item" style="--i: 3">to AI &amp; the real world.</span>
+                </h1>
+                <p class="art-hero__copy hero-intro__item" style="--i: 4">
+                  Robotics, embedded electronics, computer vision, and Swift-native product work. I build end-to-end
+                  systems you can hold, fly, or ship in an app store.
+                </p>
+                <div class="art-hero__actions hero-intro__item" style="--i: 5">
+                  <a class="button button--primary" href="#work">Explore work</a>
+                  <a class="button button--secondary" href="about.html">About</a>
+                </div>
+              </div>
+              <figure class="art-portrait hero-intro__item" style="--i: 6">
+                <img
+                  src="myphoto.jpeg"
+                  alt="Portrait of Arjun"
+                  width="580"
+                  height="640"
+                  fetchpriority="high"
+                  decoding="async"
+                />
+                <figcaption class="art-portrait__cap">
+                  <p class="art-portrait__name">Kasimsetty Venkata Naga Arjun</p>
+                  <p class="art-portrait__role">Systems · Robotics · Apple ecosystem</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--alt">
+          <div class="section__inner reveal">
+            <div class="art-strip">
+              <blockquote class="art-strip__quote">
+                Software only matters when hardware constraints and human trust are designed in from the start.
+              </blockquote>
+              <p class="art-strip__aside">
+                Five projects below. FlexML leads. Each case study includes problem, build, role, and real media.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="work" aria-labelledby="work-heading">
+          <div class="section__inner">
+            <header class="section-intro reveal">
+              <p class="eyebrow">Selected work</p>
+              <h2 class="section-heading" id="work-heading">A gallery of systems, not slides.</h2>
+              <p class="lead">Tap a panel. Every project has a full case study.</p>
+            </header>
+
+            <div class="bento reveal reveal--delay-1">
+              <a
+                class="bento__cell bento__cell--xl bento__cell--img-heavy"
+                href="project-flexml.html"
+              >
+                <span class="bento__arrow" aria-hidden="true">→</span>
+                <div class="bento__media">
+                  <img
+                    src="PhotosAndVideos/FlexML/mainview.jpg"
+                    alt="FlexML app on iPhone showing live vision inference"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="bento__cap">
+                  <span class="bento__label">Swift Student Challenge</span>
+                  <h3 class="bento__title">FlexML</h3>
+                </div>
+              </a>
+
+              <a
+                class="bento__cell bento__cell--lg bento__cell--img-heavy"
+                href="project-drone.html"
+              >
+                <span class="bento__arrow" aria-hidden="true">→</span>
+                <div class="bento__media">
+                  <img
+                    src="PhotosAndVideos/Gps_denied_Navigation/Gpsdenied navigation Image.png"
+                    alt="GPS-denied drone navigation simulation workspace"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="bento__cap">
+                  <span class="bento__label">Autonomy · Research</span>
+                  <h3 class="bento__title">GPS-Denied Navigation</h3>
+                </div>
+              </a>
+
+              <a
+                class="bento__cell bento__cell--md bento__cell--img-heavy"
+                href="project-power-system.html"
+              >
+                <span class="bento__arrow" aria-hidden="true">→</span>
+                <div class="bento__media">
+                  <img
+                    src="PhotosAndVideos/TetheredDroneSystem/Tether_AIRUnit_pcb.jpg.jpg"
+                    alt="Air unit PCB for tethered drone power system"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="bento__cap">
+                  <span class="bento__label">Hardware · PCB</span>
+                  <h3 class="bento__title">Tethered Power</h3>
+                </div>
+              </a>
+
+              <a
+                class="bento__cell bento__cell--sm bento__cell--img-heavy"
+                href="project-water-ai.html"
+              >
+                <span class="bento__arrow" aria-hidden="true">→</span>
+                <div class="bento__media">
+                  <img
+                    src="PhotosAndVideos/Water%20AI/Hardware%20Images/IMG_4441.jpg"
+                    alt="Water AI field imaging hardware prototype"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="bento__cap">
+                  <span class="bento__label">Field AI</span>
+                  <h3 class="bento__title">Water AI</h3>
+                </div>
+              </a>
+
+              <a
+                class="bento__cell bento__cell--wide bento__cell--img-heavy"
+                href="project-team-tedh.html"
+              >
+                <span class="bento__arrow" aria-hidden="true">→</span>
+                <img
+                  class="bento__brand-mark"
+                  src="PhotosAndVideos/TEAM%20TEDH/tedh-logo.png"
+                  alt="Team TEDH logo"
+                  width="88"
+                  height="28"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div class="bento__media">
+                  <img
+                    src="PhotosAndVideos/TEAM%20TEDH/Hacksrm_teamTedh_groupPhoto_withWinningCheck.JPG"
+                    alt="Team TEDH at HackSRM with winning check"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="bento__cap">
+                  <span class="bento__label">Leadership · Hackathons</span>
+                  <h3 class="bento__title">Team TEDH</h3>
+                </div>
+              </a>
+            </div>
+
+            <div class="button-row reveal" style="margin-top: 28px">
+              <a class="button button--secondary" href="projects.html">Linear project overview</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--alt" id="featured" aria-labelledby="featured-heading">
+          <div class="section__inner">
+            <header class="section-intro reveal">
+              <p class="eyebrow">Flagship</p>
+              <h2 class="section-heading" id="featured-heading">FlexML in focus.</h2>
+            </header>
+            <article class="spotlight reveal reveal--delay-1">
+              <div class="spotlight__media">
+                <img
+                  src="PhotosAndVideos/FlexML/infarence_yolov8_mlmodel.PNG"
+                  alt="FlexML running YOLOv8 Core ML inference on iPhone"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="spotlight__body">
+                <div class="hero-card__meta">
+                  <span class="tag tag--accent">Winner</span>
+                  <span class="tag">Core ML</span>
+                  <span class="tag">Robotics</span>
+                </div>
+                <h3 class="spotlight__title">Your phone is the vision computer.</h3>
+                <p class="spotlight__summary">
+                  Real-time on-device inference, dynamic model loading, and a product story built for teams who are
+                  tired of bolting Raspberry Pis onto robots.
+                </p>
+                <div class="button-row">
+                  <a class="button button--primary" href="project-flexml.html">Case study</a>
+                  <a class="button button--ghost" href="projects.html">All projects</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section__inner reveal">
+            <article class="quote-card">
+              <p class="quote-card__quote">
+                I want the Academy to sharpen how I turn hard engineering into products people actually use.
+              </p>
+              <p class="quote-card__byline">
+                Open to Academy review, research collaboration, and building ambitious systems together.
+              </p>
+              <div class="button-row" style="margin-top: 20px">
+                <a class="button button--primary" href="contact.html">Contact</a>
+                <a class="button button--secondary" href="KasimsettyVenkataNagaArjun_CV_Academy.pdf">CV</a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <span class="site-footer__brand">Arjun · Systems Builder</span>
+          <span>&copy; <span data-current-year></span></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
