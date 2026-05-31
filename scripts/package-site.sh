@@ -20,14 +20,14 @@ FILES=(
   "styles.css"
   "myphoto.jpeg"
   "KasimsettyVenkataNagaArjun_CV_Academy.pdf"
-  "PhotosAndVideos/FlexML/infarence_deeplabV3_mlmodel.PNG"
-  "PhotosAndVideos/FlexML/infarence_yolov8_mlmodel.PNG"
+  "PhotosAndVideos/FlexML/infarence_deeplabV3_mlmodel.jpg"
+  "PhotosAndVideos/FlexML/infarence_yolov8_mlmodel.jpg"
   "PhotosAndVideos/FlexML/mainview.jpg"
-  "PhotosAndVideos/FlexML/model_selection_files.PNG"
-  "PhotosAndVideos/FlexML/myinfopage.PNG"
+  "PhotosAndVideos/FlexML/model_selection_files.jpg"
+  "PhotosAndVideos/FlexML/myinfopage.jpg"
   "PhotosAndVideos/Gps_denied_Navigation/3d_mapcompilation _in_reality capture.mp4"
   "PhotosAndVideos/Gps_denied_Navigation/GPS_DENIED_Navigation_SIMULATON.mp4"
-  "PhotosAndVideos/Gps_denied_Navigation/Gpsdenied navigation Image.png"
+  "PhotosAndVideos/Gps_denied_Navigation/Gpsdenied navigation Image.jpg"
   "PhotosAndVideos/TEAM TEDH/APPoliceDepartment_temaTEDH.JPG"
   "PhotosAndVideos/TEAM TEDH/APdroneCorparation_tedh_presentation.jpg"
   "PhotosAndVideos/TEAM TEDH/AmarathiDroneSummit_tedh.JPG"
@@ -54,6 +54,7 @@ FILES=(
   "PhotosAndVideos/Water AI/web/lab-parameter-instrument.jpg"
 )
 
+rm -rf "$DEPLOY_DIR" "$ZIP_PATH"
 mkdir -p "$DEPLOY_DIR"
 
 for rel_path in "${FILES[@]}"; do
